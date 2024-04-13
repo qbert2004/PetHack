@@ -1,0 +1,77 @@
+body {  margin: 0;
+  padding: 0;  background-color: #ffffff;
+}
+h1 {  font-family: Arial, sans-serif;
+  text-align: center;  color: #333;
+  margin-top: 50px;}
+ul{
+  font-family: Arial, sans-serif;  margin-left: -7%;
+  margin-top: 0;  color: #888888;
+  font-size: 15px;}
+.back{
+  float: left;  align-content: center;
+  text-align: center;
+}
+.fig{  display: block; /* Блочный элемент (для старых браузеров) */
+  text-align: center; /* Выравнивание по центру */}
+h2{  text-align: center;
+  font-size: larger;
+  font-family: system-ui;}
+
+#container{  display: flex;
+  justify-content: center;}
+.block1{
+  align-content: center;}
+.bblock{
+  float: left;  margin-left: 15%;
+  margin-top: 7%;}
+
+form {  width: 300px;
+  margin: 50px auto;  background-color: #fff;
+  padding: 30px;
+}
+label {  display: block;
+  margin-bottom: 10px;  color: #333;
+}
+input[type="text"], input[type="password"] {  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;  border: 1px solid #ddd;
+  border-radius: 5px;  box-sizing: border-box;
+}
+input[type="submit"] {  background-color: #333333;
+  color: #fff;  border: none;
+  width: 100%;  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;  box-sizing: border-box;
+}
+input[type="submit"]:hover {
+  background-color: mediumpurple;}
+p {
+  text-align: center;  color: #333;
+  margin-top: 30px;
+}
+p a {
+  color: mediumpurple;  text-decoration: none;
+}
+p a:hover {  text-decoration: underline;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-btn img {
+  vertical-align: middle;
+}
+
+.back-btn span {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 5px; /* Adding some spacing between the image and text */
+}
+
